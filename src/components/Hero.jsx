@@ -5,8 +5,8 @@ export default function Hero() {
 
   return (
     <section
-      className="relative text-center py-20 px-6 bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/src/assets/photos/235e3b151661977.630fc95415d3f.jpg')" }} // place your image in the public folder
+      className="relative text-center py-20 px-6  bg-cover bg-no-repeat"
+      style={{ backgroundImage: "url('https://th.bing.com/th/id/R.6e9fd2e6de600b0545746fc9a9049a84?rik=UGRpCN8hYpIHOg&pid=ImgRaw&r=0')" }} // place your image in the public folder
     >
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>

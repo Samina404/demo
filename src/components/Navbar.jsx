@@ -78,9 +78,7 @@ export default function Navbar() {
 
       {/* Cart & Location */}
       <div className="flex items-center space-x-4">
-        <button className="p-2 rounded-full hover:bg-orange-400">
-          <MapPin className="w-6 h-6 text-white" />
-        </button>
+        
         <Link to="/cart" className="relative p-2 rounded-full hover:bg-orange-400">
           <ShoppingCart className="w-6 h-6 text-white" />
           {cartCount > 0 && (
